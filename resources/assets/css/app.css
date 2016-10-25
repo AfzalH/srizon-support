@@ -1,0 +1,141 @@
+.permission-list, .role-list, .user-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.fa-green::before {
+    color: #2d9826;
+}
+
+.fa-red::before {
+    color: #cf3829;
+}
+
+.title .fa {
+    margin-right: .3em;
+    margin-left: .1em;
+}
+
+.title small .fa {
+    margin-left: 1em;
+}
+
+body.public .content-wrapper {
+    background: rgba(236, 240, 245, 0.35);
+}
+
+/* + tiny mce override */
+.mce-panel{
+    width: auto !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #f5f5f5 !important;
+}
+.mce-panel .mce-btn{
+    background-color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important;
+}
+/* - tiny mce override */
+
+/*
+ * Component: Products List
+ * ------------------------
+ */
+.tickets-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tickets-list > .item {
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 9px 0;
+    background: #fff;
+}
+.tickets-list > .item:before,
+.tickets-list > .item:after {
+    content: " ";
+    display: table;
+}
+.tickets-list > .item:after {
+    clear: both;
+}
+.tickets-list .ticket-img {
+    float: left;
+}
+.tickets-list .ticket-img img {
+    width: 50px;
+    height: 50px;
+}
+.tickets-list .ticket-info {
+    margin-left: 60px;
+}
+.tickets-list .ticket-user {
+    font-weight: 600;
+}
+.tickets-list .ticket-title {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ticket-list-in-box > .item {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.ticket-list-in-box > .item:last-of-type {
+    border-bottom-width: 0;
+}
+.ticket-img img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-tabs-custom .box-footer{
+    padding: 9px;
+}
+
+/* Ticket Posts Area */
+.ticket-post-form{
+    padding: 10px;
+}
+
+.direct-chat-messages.ticket-messages{
+    height: auto !important;
+}
+
+.ticket-messages .direct-chat-text{
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.ticket-messages .direct-chat-text:after, .ticket-messages .direct-chat-text:before{
+    border-right-color: #F5F5F5;
+}
+
+.ticket-messages .right .direct-chat-text{
+    background: #F0F5FF;
+    border: 1px solid #F0F5FF;
+}
+
+.ticket-messages .right .direct-chat-text:after, .ticket-messages .right .direct-chat-text:before{
+    border-right-color: transparent;
+    border-left-color: #F0F5FF;
+}

@@ -1,0 +1,154 @@
+/* Chrome rounded drop-down fix*/
+select.form-control {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.sortable-list li {
+    border-radius: 2px;
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 2px;
+    border-left: 2px solid #e6e7e8;
+    color: #444;
+}
+
+.sortable-list .handle {
+    display: inline-block;
+    cursor: move;
+    margin: 0 5px;
+}
+
+.floating-callout-box {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    float: right;
+    width: 200px;
+    padding: 20px;
+    z-index: 5000;
+}
+
+.floating-callout {
+    clear: both;
+    margin: 5px;
+}
+
+div.defocus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: rgba(31, 31, 31, 0.85);
+}
+
+div.focus-element {
+    z-index: 10;
+}
+
+.title-collapse {
+    cursor: pointer;
+}
+
+.form-control.floatlabel {
+    height: auto;
+    min-height: 34px;
+}
+
+.label-floatlabel {
+    padding: 4px 0 0 4px;
+}
+
+.mce-primary button {
+    color: rgb(51, 51, 51) !important;
+    background: white;
+}
+
+.btn-block + div + .btn-block {
+    margin-top: 5px;
+}
+
+.btn-box-tool .fa-plus {
+    color: #cf3829;
+}
+
+.sidebar-collapse section.content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row td {
+    cursor: pointer;
+}
+
+.role-list li, .permission-list li {
+    margin-bottom: 10px;
+}
+
+.input-group.verify-secret {
+    margin-bottom: 10px;
+}
+
+#forgot-key-button {
+    cursor: pointer;
+    color: #3c8dbc;
+}
+
+.order-img img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.result-img img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.statuschange {
+    opacity: .3;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+
+.statuschange:hover, .statuschange.active {
+    opacity: 1;
+}
+
+.direct-chat-text.toppadding {
+    padding-bottom: 26px;
+}
+
+.post-edit-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.post-edit-button a {
+    opacity: .1;
+    transition: opacity .5s;
+}
+
+.direct-chat-text:hover .post-edit-button a {
+    opacity: .5;
+}
+
+.direct-chat-text:hover .post-edit-button:hover a:hover {
+    opacity: 1;
+}
+
+table tr.vcenter td{
+    vertical-align: middle;
+}
